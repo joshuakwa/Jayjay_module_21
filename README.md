@@ -10,3 +10,7 @@ Features
 - Java-Based Framework: Leverage the power of Java for creating a flexible and maintainable automation framework.
 - Reporting: Generate detailed test reports to analyze the results and track the performance of automated tests.
 - Page Object Model (POM): Use the Page Object Model to enhance test maintenance and reduce code duplication.
+
+  Cucumber.html report result
+  ![image](https://github.com/joshuakwa/Jayjay_module_21/assets/138645471/4d7b81a0-0e3e-450c-923f-eaf40eb14a3c)
+
