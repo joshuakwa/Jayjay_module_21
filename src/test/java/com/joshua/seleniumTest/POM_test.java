@@ -1,6 +1,7 @@
 package com.joshua.seleniumTest;
 
 import org.junit.jupiter.api.Test;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -17,6 +18,12 @@ public class POM_test {
         ChromeOptions options = new ChromeOptions();
         driver = new ChromeDriver(options);
         driver.manage().timeouts().implicitlyWait(Duration.ofMillis(2000));
+
+//        driver.navigate().to("https://www.qubisa.com/signin");
+//        driver.findElement(By.xpath("//*[@id=\"__next\"]/div/div[3]/div[1]/div[2]/div[2]/div")).sendKeys("joshua4@qubisa.com");
+//        driver.findElement(By.xpath("//*[@id=\"floatingInput1716531764338\"]")).sendKeys("test123");
+//        driver.findElement(By.xpath("//*[@id=\"sign-in\"]")).click();
+
 
         LoginPage loginPage = new LoginPage(driver);
         HomePage homePage = new HomePage(driver);
